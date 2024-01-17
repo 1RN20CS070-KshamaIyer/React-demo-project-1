@@ -26,7 +26,7 @@ export function calculateInvestmentResults({
     investmentValue += interestEarnedInYear + annualInvestment;
     annualData.push({
       year: i + 1, 
-      interest: interestEarnedInYear, // the amount of interest earned in this year
+      interest: interestEarnedInYear, 
       valueEndOfYear: investmentValue, // investment value at the end of the year
       annualInvestment: annualInvestment, // investment added in this year
     });
